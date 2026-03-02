@@ -3,7 +3,10 @@ const { times } = require("lodash");
 const { time } = require("systeminformation");
 
 module.exports = defineConfig({
+  projectId: "tf6e64",
   allowCypressEnv: false,
+
+  
 
   e2e: {
     setupNodeEvents(on, config) {
