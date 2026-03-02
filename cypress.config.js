@@ -10,13 +10,13 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     video: true,
-    reporter: 'mochawesome',
+    reporter: "mochawesome",
     reporterOptions: {
-      reportDir: 'cypress/results',
+      reportDir: "cypress/results",
       overwrite: false,
       html: true,
       json: false,
-      timestamp: 'mm-dd-yyyy_HH-MM-ss',
+      timestamp: "mm-dd-yyyy_HH-MM-ss",
     },
   },
 });
