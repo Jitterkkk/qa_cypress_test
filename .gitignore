@@ -4,3 +4,12 @@ package.json/
 /.env
 /logs/
 *.tmp
+.DS_Store
+dist/
+coverage/
+.idea/
+.vscode/
+*.log
+*.bak
+*.swp
+./assets/
