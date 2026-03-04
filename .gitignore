@@ -13,3 +13,4 @@ coverage/
 *.bak
 *.swp
 ./assets/
+cypress.env.json
